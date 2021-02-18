@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Симулятор жизни.exe" version="1.0.0.0" publicKeyToken="93bd0a9cd12dd5cb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Симулятор жизни" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Симулятор жизни.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Симулятор жизни.exe" size="5080">
+      <assemblyIdentity name="Симулятор жизни" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MAtlKdUbpwnch/F7FzF6WKO4Nm87rv02DLf8RurD0b0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Симулятор жизни.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-DUN2EEK88MA\TOY" issuerKeyHash="0cd500375db927f6f4ae2663975cc61a9154ada9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wjr3sN4KKQ6rzO3+ephDuWo06wZshvldI11yx97GLfM=</DigestValue></Reference></SignedInfo><SignatureValue>HmR+nKVxV5oYGqenglI+SMGZp+BtSS3LzfjBWZ+sljphNtWPvQJG0HCb8L04O7H5k2q13fVDru7sS/eJBEaUdpqdmUtkmxMrjFVuV9Z96Nr/ephtlQr1sSTV6Mx2kDh4f5BoblWR3+tP85gXSRmMUJF+EgjRe3UORD5g0u04MMU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lj1sb43ei14JzWl2L//AwdIdZ5zgc0g/+ZfQdXau4u92nelG7KQyiycnhMhpZm17J0xkFd9gZk1Iwkwh/7g0xdRtbci97Y4GsjD0SsBknoFPmma7hRmh2+Y2jp7e7sUSFYrfQI+5wMnkCKNe1fQ4LGyRbW5L9Yci16s/esdEzh0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f32dc6dec7725d235df9866c06eb346ab943987afeedccab0e290adeb0f73ac2" Description="" Url=""><as:assemblyIdentity name="Симулятор жизни.exe" version="1.0.0.0" publicKeyToken="93bd0a9cd12dd5cb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-DUN2EEK88MA\TOY</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>85lpckjnY0Ef4poD6ExlJBQiTL0d7FMjk+M0c/JD1/s=</DigestValue></Reference></SignedInfo><SignatureValue>GlVEBEYgiWj9oOmpfZF+IPXQV5VPTloJbu+vZJVa0OZqwevLeLgvbgUKwLAnFq1tkgtCqEpZUnZUDVdMPHm5be4ul90kPIWVHtcJAcyAN6gvaD/P13zjEQQJ5K3GgWt7CTiYJb1jesGfk7A5HmImd+IKn3zadxH+KN2AFDy6Vkc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lj1sb43ei14JzWl2L//AwdIdZ5zgc0g/+ZfQdXau4u92nelG7KQyiycnhMhpZm17J0xkFd9gZk1Iwkwh/7g0xdRtbci97Y4GsjD0SsBknoFPmma7hRmh2+Y2jp7e7sUSFYrfQI+5wMnkCKNe1fQ4LGyRbW5L9Yci16s/esdEzh0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQJS83ladcLoxGOjZb3BwI/DANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAVwBJAE4ALQBEAFUATgAyAEUARQBLADgAOABNAEEAXABUAE8AWTAeFw0yMTAyMTYxODQxMDVaFw0yMjAyMTcwMDQxMDVaMDExLzAtBgNVBAMeJgBXAEkATgAtAEQAVQBOADIARQBFAEsAOAA4AE0AQQBcAFQATwBZMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWPWxvjd6LXgnNaXYv/8DB0h1nnOBzSD/5l9B1dq7i73ad6UbspDKLJyeEyGlmbXsnTGQV32BmTUjCTCH/uDTF1G1tyL3tjgayMPRKwGSegU+aZruFGaHb5jaOnt7uxRIVit9Aj7nAyeQIo17V9DgsbJFtbkv1hyLXqz96x0TOHQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACjsWINJbkPv5zTCeevaUSqKWwY4AoZuyKZxiwEWFEj2NrDvpu0vszR1glrJKqYB4CeR0y3zEKrYFFIJuCiV0P8e1ojp3W7FxKZPJJX1RX6pKAgpM3x5XQHN0/hlwWkuP1ZXRRAwyXW7ZhLjr0Nx4ZUWbjjpLkEQSgAlk0dP0Yzl</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
